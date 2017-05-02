@@ -6,8 +6,8 @@ package ru.stqa.pft.sandbox;
 public class Calculate {
     public static void main(String[] args) {
 
-        Point point1 = new Point(-89,7);
-        Point point2 = new Point(78, 92);
+        Point point1 = new Point(15,78);
+        Point point2 = new Point(9, 70);
         System.out.print(point1.distance(point2));
         // Задания 2.2 и 2.3
 //          Point point1 = new Point();
