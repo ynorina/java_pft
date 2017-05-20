@@ -10,6 +10,7 @@ import ru.stqa.pft.addressbook.appmanager.ApplicationManager;
 public class TestBase {
 
     protected final ApplicationManager app = new ApplicationManager();
+    //protected final ApplicationManager app = new ApplicationManager();
 
     @BeforeMethod
     public void setUp() throws Exception {
@@ -21,4 +22,7 @@ public class TestBase {
         app.stop();
     }
 
+    //public ApplicationManager getApp() {
+        //return app;
+   // }
 }
