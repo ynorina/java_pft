@@ -12,6 +12,7 @@ public class ContactCreationTests extends TestBase {
 
     @Test
     public void testContactCreation() {
+        app.getNavigationHelper().gotoContactPage();
         app.getContactHelper().createContact(new ContactData("New", "Contact", "Tester", "Company", "Lenin street 10, Moscow", "test1"));
 
     }
